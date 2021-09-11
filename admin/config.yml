@@ -7,5 +7,6 @@ collections:
     label: "Heading1"
     widget: "string"
     extension: "html"
-    files: "page1"
+    file: "page1.html"
+    folder: "/"
 media_folder: assets/uploads

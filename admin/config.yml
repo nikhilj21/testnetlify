@@ -4,6 +4,8 @@ backend:
 publish_mode: editorial_workflow
 collections:
   - name: "heading1"
-  - Label: "Heading1"
+  - label: "Heading1"
   - widget: "string"
-  - extension: "page1.html"
+  - extension: "html"
+  - file: "page1"
+media_folder: assets/uploads

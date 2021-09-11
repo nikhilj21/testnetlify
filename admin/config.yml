@@ -1,13 +1,9 @@
 backend:
-name: test-repo
-
-media_folder: media_folder
-
+  name: testnetlify
+  branch: master
+publish_mode: editorial_workflow
 collections:
-- name: post
-label: Post
-folder: posts
-create: true
-fields:
-  - {name: title, label: Title}
-  - {name: body, label: Body, widget: markdown}
+  - name: "heading1"
+  - Label: "Heading1"
+  - widget: "string"
+  - extension: "page1.html"

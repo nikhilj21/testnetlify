@@ -1,6 +1,5 @@
 backend:
   name: github
-  repo: nikhilj21/testnetlify 
   branch: master
 collections:
   - name: "pages"

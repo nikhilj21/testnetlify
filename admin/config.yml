@@ -9,6 +9,6 @@ collections:
         name: "index"
         file: "index.html"
         fields:
-            - {label: "Heading", name: "indexh1", widget: "text"}
-            - {label: "DataIndex", name: "indexdata", widget: "text"}
+            - {label: "Heading", name: "indexh1"}
+            - {label: "DataIndex", name: "indexdata"}
 media_folder: assets/uploads

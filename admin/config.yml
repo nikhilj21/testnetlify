@@ -2,9 +2,13 @@ backend:
   name: git-gateway
   branch: master
 collections:
-  - name: "index" # Used in routes, e.g., /admin/collections/blog
-    label: "Index" # Used in the UI
-    fields: # The fields for each document, usually in front matter
-      - {label: "Heading", name: "indexh1", widget: "string"}
-      - {label: "DataIndex", name: "indexdata", widget: "string"}
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Index Page"
+        name: "index"
+        file: "index.html"
+        fields:
+            - {label: "Heading", name: "indexh1", widget: "string"}
+            - {label: "DataIndex", name: "indexdata", widget: "string"}
 media_folder: assets/uploads

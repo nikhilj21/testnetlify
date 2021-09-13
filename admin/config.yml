@@ -1,6 +1,3 @@
-backend:
-  name: testnetlify
-  branch: master
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI

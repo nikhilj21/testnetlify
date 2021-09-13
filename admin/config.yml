@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   branch: master
 collections:
   - name: "pages"
@@ -8,7 +8,5 @@ collections:
       - label: "Index Page"
         name: "index"
         file: "index.html"
-        fields:
-            - {label: "Heading", name: "indexh1", widget: "string"}
-            - {label: "DataIndex", name: "indexdata", widget: "string"}
+        
 media_folder: assets/uploads

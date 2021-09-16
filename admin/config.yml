@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: https://github.com/nikhilj21/testnetlify
   branch: master
 collections:
   - name: "pages"

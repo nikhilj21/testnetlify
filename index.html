@@ -1,7 +1,20 @@
 <html>
-<body>
+<head>
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
 <h1 name="indexh1">Index Page </h1>
 <h3 name="indexdata">Testing Index Content</h3>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 </body>
 </html>

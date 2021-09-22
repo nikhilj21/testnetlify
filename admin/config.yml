@@ -7,7 +7,7 @@ collections:
     files:
       - label: "Index Page"
         name: "indexh1"
-        file: "index.html"
+        file: "page1.html"
         fields:
             - {label: "Heading", name: "indexh1"}
             - {label: "DataIndex", name: "indexdata"}

@@ -10,8 +10,12 @@ collections:
         name: "setting"
         file: "people.json"
         fields:
-            - {label: "FirstName", name: "firstName", widget: code}
-            - {label: "LastName", name: "lastName", widget: code}
-            - {label: "Email", name: "email", widget: code}
-            - {label: "City", name: "city", widget: code}
+          - label: "Person"
+            name: "person"
+            widget: "list"
+            fields:
+              - {label: "FirstName", name: "firstName", widget: "string"}
+              - {label: "LastName", name: "lastName", widget: "string"}
+              - {label: "Email", name: "email", widget: "string"}
+              - {label: "City", name: "city", widget: "string"}
 media_folder: assets/uploads

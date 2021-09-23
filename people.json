@@ -12,17 +12,5 @@
       "email": "second@yah.com",
       "city": "Vadodara"
     }
-  ],
-  "firstName": {
-    "code": "testjson"
-  },
-  "lastName": {
-    "code": "fdgdfgdfgdfg"
-  },
-  "email": {
-    "code": "dsgdfgdfgdfg"
-  },
-  "city": {
-    "code": "dgdfgdfgdfgdfg"
-  }
+  ]\
 }

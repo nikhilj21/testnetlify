@@ -1,0 +1,16 @@
+{
+    "person": [
+        {
+            "firstName": "first",
+            "lastName": "last",
+            "email": "first@yah.com",
+			"city": "Ahmedabad"
+        },
+        {
+            "firstName": "second",
+            "lastName": "secondlast",
+            "email": "second@yah.com",
+			"city": "Vadodara"
+        }
+    ]
+} 

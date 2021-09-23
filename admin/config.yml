@@ -4,11 +4,14 @@ backend:
 collections:
   - name: "pages"
     label: "Pages"
+    extension: "json"
     files:
-      - label: "Index Page"
-        name: "indexh1"
-        file: "page1.html"
+      - label: "Setting"
+        name: "setting"
+        file: "people.json"
         fields:
-            - {label: "Heading", name: "indexh1"}
-            - {label: "DataIndex", name: "indexdata"}
+            - {label: "FirstName", name: "firstName", widget: code}
+            - {label: "LastName", name: "lastName", widget: code}
+            - {label: "Email", name: "email", widget: code}
+            - {label: "City", name: "city", widget: code}
 media_folder: assets/uploads

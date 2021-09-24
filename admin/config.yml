@@ -6,8 +6,8 @@ collections:
     label: "Pages"
     extension: "json"
     files:
-      - label: "Setting"
-        name: "setting"
+      - label: "Page1"
+        name: "page1"
         file: "people.json"
         fields:
           - label: "Person"
@@ -18,4 +18,15 @@ collections:
               - {label: "LastName", name: "lastName", widget: "string"}
               - {label: "Email", name: "email", widget: "string"}
               - {label: "City", name: "city", widget: "string"}
+       - label: "Page2"
+         name: "page2"
+         file: "employee.json"
+         fields:
+           - label: "Employee"
+             name: "employee"
+             widget: "list"
+             fields:
+               - {label: "Employee Code", name: "empcode", widget: "string"}
+               - {label: "Employee Name", name: "empname", widget: "string"}
+               - {label: "Designation", name: "empdeg", widget: "string"}
 media_folder: assets/uploads

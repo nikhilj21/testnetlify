@@ -9,7 +9,7 @@
    var people = [];
 
    $.getJSON('employee.json', function(data) {
-       $.each(data.person, function(i, f) {
+       $.each(data.employee, function(i, f) {
           var tblRow = "<tr>" + "<td>" + f.empcode + "</td>" +
            "<td>" + f.empname + "</td>" + "<td>" + f.empdeg + "</td>" + "</tr>"
            $(tblRow).appendTo("#userdata tbody");
